@@ -1,50 +1,11 @@
 def greet_characters(array)
-  array.each do |character|
-    puts "Hello #{character}!"
+  array.each do |dwarves|
+    puts "Hello #{dwarves}!"
   end
-end 
+end
 
 def list_dwarves(array)
-  array.each_with_index do |character, index|
-    puts "#{(index +1)}. #{character}"
+  array.each.with_index do |dwarves, index|
+    puts "#{index +1}. #{dwarves}"
   end
-end 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def greet_characters(array)
-#   array.each do |dwarves|
-#     puts "Hello #{dwarves}!"
-#   end
-# end
-
-# def list_dwarves(array)
-#   array.each.with_index do |dwarves, index|
-#     puts "#{index +1}. #{dwarves}"
-#   end
-# end
+end
