@@ -3,6 +3,7 @@ greet_characters(array)
     puts "Hello, #{character}"
   end
 end
+end
 
 
 
